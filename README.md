@@ -1,2 +1,2 @@
 # DCPM-ADMET
-ADMET predict、
+ADMET predict
