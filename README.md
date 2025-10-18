@@ -6,7 +6,6 @@ Code and trained model for our paper **DCPM-ADMET: Fusion of Dual-channel Pre-tr
 
 ## Installation
 DCPM-ADMET can be downloaded by following the commands below.
-
 ```bash
 git clone zhangzhangleilei/DCPM-ADMET.git
 cd DCPM-ADMET
@@ -27,16 +26,13 @@ Fintune regression [data](https://drive.google.com/drive/folders/1-7i7YSSs4QTrc5
 
 ## Code
 We have provided the pre-training [code](https://github.com/zhangzhangleilei/DCPM-ADMET/blob/main/pretrain/pretrain.py)
-
 ```bash
 python pretrain.py --"data_url" --"device_num" --"save_url" --"check_point_path"
 ```
-
 You can use the fine-tuning [code](https://github.com/zhangzhangleilei/DCPM-ADMET/blob/main/fintune/finetune.py) to obtain a custom model that matches your task
 ```bash
 python fintune.py --"fintune data path" --"model path" --"save model path" --"checkpoint"
 ```
-
 <br>
 
 ## Web
