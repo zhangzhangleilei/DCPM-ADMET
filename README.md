@@ -24,13 +24,9 @@ MoleculeNet [data](https://drive.google.com/drive/folders/1OUOD88vmmotz0yFa-BmKZ
 <br>
 
 ## Code
-We have provided the pre-training [code](https://github.com/zhangzhangleilei/DCPM-ADMET/blob/main/pretrain/pretrain.py)
+We have provided the pre-training [code](https://github.com/zhangzhangleilei/DCPM-ADMET/blob/main/pretrain/train.py)
 ```bash
-python pretrain.py --"data_url" --"device_num" --"save_url" --"check_point_path"
-```
-You can use the fine-tuning [code](https://github.com/zhangzhangleilei/DCPM-ADMET/blob/main/fintune/finetune.py) to obtain a custom model that matches your task
-```bash
-python fintune.py --"fintune data path" --"model path" --"save model path" --"checkpoint"
+python train.py --"testdata" [test_data.csv](https://github.com/zhangzhangleilei/DCPM-ADMET/blob/main/pretrain/test_data.csv) --"testpkl" [test_molfeats.pkl](https://github.com/zhangzhangleilei/DCPM-ADMET/blob/main/pretrain/test_molfeats.pkl) --"data_url" [pretrain.csv](https://drive.google.com/drive/folders/1f4EJeGH-_pI642Axghp47LmfoCNfi91u) --"save_url" ./
 ```
 <br>
 
