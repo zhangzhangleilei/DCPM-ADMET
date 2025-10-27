@@ -26,7 +26,7 @@ MoleculeNet [data](https://drive.google.com/drive/folders/1OUOD88vmmotz0yFa-BmKZ
 ## Code
 We have provided the pre-training [code](https://github.com/zhangzhangleilei/DCPM-ADMET/blob/main/pretrain/train.py)
 ```bash
-python train.py --"testdata" [test_data.csv](https://github.com/zhangzhangleilei/DCPM-ADMET/blob/main/pretrain/test_data.csv) --"testpkl" [test_molfeats.pkl](https://github.com/zhangzhangleilei/DCPM-ADMET/blob/main/pretrain/test_molfeats.pkl) --"data_url" [pretrain.csv](https://drive.google.com/drive/folders/1f4EJeGH-_pI642Axghp47LmfoCNfi91u) --"save_url" ./
+python train.py --"testdata" test_data.csv --"testpkl" test_molfeats.pkl --"data_url" pretrain.csv --"save_url" ./
 ```
 <br>
 
